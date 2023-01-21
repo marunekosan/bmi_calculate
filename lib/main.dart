@@ -51,7 +51,7 @@ class _BmiCalculateState extends State<BmiCalculate> {
         margin:EdgeInsets.only(bottom: 50.0),
           child: FloatingActionButton.extended(
             label: Text('BMI?'),
-            icon: Icon(Icons.add),
+            // icon: Icon(Icons.add),
             onPressed: () {
               Navigator.push(
                 context,
